@@ -1,0 +1,140 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+#body{
+    width: 100vw;
+    height: 100vh;
+    background: hsl(216, 12%, 8%);
+  
+}
+@font-face {
+    font-family: Overpass;
+    src: url(Overpass/Overpass-VariableFont_wght.ttf);
+}
+#container{
+    width: 400px;
+    height: 400px;
+    background: hsl(213, 19%, 18%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+}
+
+#result{
+    width: 400px;
+    height: 400px;
+    background: hsl(213, 19%, 18%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+    z-index: -1;
+}
+
+#star{
+    background: hsl(214, 12%, 23%);
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 8%;
+    left: 8%;
+}
+#star-img{
+    position: absolute;
+    top: 27%;
+    left: 27%;
+}
+#head{
+    color:white;
+}
+#content{
+    font-family: Overpass;
+    color: hsl(217, 12%, 63%);
+    position: absolute;
+    top: 20%;
+    left: 6%;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.buttons button{
+    background-color:hsl(214, 12%, 23%);
+  color: white;
+  border: none;
+  padding: 5px;
+  font-size: 20px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  
+}
+.buttons button:hover{
+    background-color:hsl(217, 12%, 63%);
+}
+
+
+#submit{
+    position: absolute;
+    bottom: -35%;
+    width: 350px;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-family: Overpass;
+    color:orange;
+    border: none;
+    cursor:pointer;
+    
+}
+#submit:hover{
+    background-color: hsl(42, 9%, 77%);
+}
+
+#image-border{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 8%;
+    left: 25%;
+}
+#image{
+    position: absolute;
+    top: 27%;
+    left: 27%;
+}
+#head{
+    color:white;
+}
+
+#block{
+    font-family: Overpass;
+    color: hsl(217, 12%, 63%);
+    position: absolute;
+    top:55%;
+    left: 5%;
+    text-align: center;
+}
+#dynamic{
+    width: 200px;
+    height: 45px;
+    display: inline;
+    color: orange;
+    background: hsl(214, 12%, 23%);
+    position: absolute;
+    left: 20%;
+    top: -35px;
+    border-radius: 20px;
+}
+
+
+
+
